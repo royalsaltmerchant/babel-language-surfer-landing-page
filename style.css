@@ -80,6 +80,10 @@ li {
   margin-bottom: 10px;
 }
 
+code {
+  color: var(--main-gray);
+}
+
 .invite-btn {
   background-color: var(--light-orange);
   padding: 10px 20px;

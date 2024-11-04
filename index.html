@@ -8,13 +8,23 @@
     <meta property="og:title" content="Babel Language Surfer" />
     <meta property="og:description" content="About Babel Language Surfer" />
     <meta
-    property="og:image"
-    content="https://langsurfer.com/fish_original.jpg"
-  />
+      property="og:image"
+      content="https://langsurfer.com/fish_original.jpg"
+    />
     <meta property="og:url" content="https://langsurfer.com" />
     <meta property="og:site_name" content="Babel Language Surfer" />
-    <link rel="icon" type="image/x-icon" href="favicon-16x16.png" sizes="16x16" />
-    <link rel="icon" type="image/x-icon" href="favicon-32x32.png" sizes="32x32" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="favicon-32x32.png"
+      sizes="32x32"
+    />
     <title>Babel Language Surfer</title>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -41,7 +51,7 @@
         Google Translate, allowing for seamless communication and browsing in
         multiple languages simultaneously.
       </p>
-      <br>
+      <br />
       <h2>Key Features</h2>
       <ul>
         <li>
@@ -67,7 +77,7 @@
           balance between translation quality and system performance.
         </li>
       </ul>
-      <br>
+      <br />
       <h2>How It Works</h2>
       <p class="indent">
         The extension sends text input to a server, which detects the input
@@ -75,7 +85,7 @@
         translated text. The translation occurs in the text field when the user
         presses the shortcut Control + T.
       </p>
-      <br>
+      <br />
       <h2>Use Cases</h2>
       <ul>
         <li>Translate your searches to view results in other languages.</li>
@@ -86,7 +96,7 @@
         </li>
         <li>Translate any document you are making "As-You-Type".</li>
       </ul>
-      <br>
+      <br />
       <h2>Ongoing Improvements</h2>
       <p class="indent">
         As we develop BabelFlow, we are actively seeking to build tools so
@@ -97,7 +107,7 @@
         many features we hope to provide to help anyone around the world access
         the information they need, no matter the language.
       </p>
-      <br>
+      <br />
       <p class="indent">In the future we hope to provide:</p>
       <ul>
         <li>
@@ -110,6 +120,15 @@
         </li>
         <li>Optimized performance for faster and more fluid communication.</li>
       </ul>
+      <br />
+      <h2>Try Our API</h2>
+      <pre><code>curl -X POST 'https://api.langsurfer.com/translate' \
+        -H 'Content-Type: application/json' \
+        -d '{
+        "text": "Hello",
+        "target_language": "fr"
+        }'
+      </code></pre>
     </main>
 
     <footer>
