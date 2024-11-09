@@ -38,90 +38,135 @@
     </div>
 
     <main>
-      <h1>Babel Language Surfer v1</h1>
-      <h2>Translate As You Type</h2>
-
-      <p class="indent">
-        Babel Language Surfer: Translate as You Type is a browser extension
-        designed to streamline the translation of text as users type, without
-        the need to copy-paste between tools. With Control + T, users can
-        translate their text directly within any input field, enabling a more
-        fluid and immersive experience when navigating foreign-language
-        websites. Babel Language Surfer is designed to complement tools like
-        Google Translate, allowing for seamless communication and browsing in
-        multiple languages simultaneously.
+      <h1>The internet was built to connect the world.</h1>
+      <p>
+        A place where anyone, anywhere, can access information, share ideas, and
+        build communities. While its success is undoubted, we believe the World
+        Wide Web can be even more worldly.
       </p>
       <br />
-      <h2>Key Features</h2>
+      <img class="graph-image" src="graph.webp" />
+      <h2>Did you know that...</h2>
       <ul>
         <li>
-          <strong>Instant Input Translation (Control + T)</strong> - Users can
-          type in any input field and press Control + T to trigger the
-          translation, which updates the text in real-time as they type. This
-          minimizes interruptions and creates a more natural typing flow.
+          <strong>About 50% of websites are in English</strong>, making a vast
+          amount of information inaccessible to those who don't speak the
+          language.
         </li>
         <li>
-          <strong>Integration with Full-Page Translators</strong> - BabelFlow
-          works in harmony with existing tools like Google Translate, which
-          focus on translating entire webpages. Together, these tools allow
-          users to navigate and interact with foreign-language websites without
-          leaving the page or switching between applications.
+          <strong>Unique content exists within each language sector</strong>,
+          from scientific research in Japanese to cultural discussions in
+          Arabic, or culinary content from Italy.
         </li>
         <li>
-          <strong>Advanced Machine Translation Model</strong> - BabelFlow
-          currently uses the marianMT model with the Helsinki-NLP/opus-mt-mul-en
-          training, which supports over 100 languages. The translation process
-          is English-centric, meaning text can be translated from any supported
-          language to English, and from English to other languages. While we are
-          exploring additional models for better support, we aim to optimize the
-          balance between translation quality and system performance.
+          <strong
+            >This fragmentation hinders cross-cultural understanding</strong
+          >, limits access to knowledge, and creates barriers to global
+          collaboration.
         </li>
       </ul>
-      <br />
-      <h2>How It Works</h2>
-      <p class="indent">
-        The extension sends text input to a server, which detects the input
-        language, translates it using the selected model, and then returns the
-        translated text. The translation occurs in the text field when the user
-        presses the shortcut Control + T.
+      <p>
+        Babel Language Surfer is a multi-faceted translation-based browser that
+        aims to unite the global internet community by overcoming existing
+        language barriers. With the help of artificial intelligence and an
+        integrated user interface, Babel Language Surfer goes beyond your
+        ordinary translation tool. It offers many unique features that allow
+        users to understand nuances lost with conventional translations.
       </p>
       <br />
-      <h2>Use Cases</h2>
+      <h2>Key Features:</h2>
       <ul>
-        <li>Translate your searches to view results in other languages.</li>
+        <li>
+          <strong>Write and Surf In Your Native Language: </strong>Browsing the
+          internet in a foreign language will be as easy as surfing in your
+          native language. Your text-input and your web-results will be
+          translated without you even knowing!
+        </li>
+        <li>
+          <strong>Translation Parameters: </strong>Easily set parameters and
+          adjust the type of translation you wish to receive. It could be as
+          direct as possible, or simplified and with extra-details that help
+          readers understand cultural contexts (these could be in text, or just
+          in parenthesis.) Users could easily toggle between different
+          translations to further understand nuances.
+        </li>
+        <li>
+          <strong>Cultural Context Window: </strong>Gain a deeper understanding
+          of the cultural nuances behind text or images by selecting and using
+          our Cultural Context feature. Here, you’ll receive an in-depth
+          explanation of the cultural context.
+        </li>
+        <li>
+          <strong>Region-Unlocking Capabilities: </strong>Access content from
+          anywhere globally, regardless of geographical restrictions by
+          integrating VPNs (where permitted.)
+        </li>
+        <li>
+          <strong>Seamless Integration:</strong> Enjoy a smooth and intuitive
+          browsing experience with no need for clunky extensions or
+          copy-pasting.
+        </li>
+        <li>
+          <strong>Language Learning: </strong>Utilize our language learning mode
+          to get the most out of surfing the web.
+        </li>
+      </ul>
+      <hr />
+      <h1>Translate As You Type</h1>
+      <p>
+        While our full-fledged browser is under construction, you can experience
+        the power of Babel Language Surfer today with our Translate As You Type
+        browser extension for chrome based browsers.
+      </p>
+      <p>
+        This browser extension is designed to streamline the translation of text
+        as you type, without the need to copy-paste between tools. With Control
+        + T, you can translate your text directly within any input field,
+        enabling a more fluid and immersive experience when navigating
+        foreign-language websites.
+      </p>
+      <h2>Key Features:</h2>
+      <ul>
+        <li>
+          <strong>Instant Input Translation (Control + T): </strong>Translate
+          text in real-time within any input field.
+        </li>
+        <li>
+          <strong>Integration with Full-Page Translators: </strong>Works
+          seamlessly with existing tools like Google Translate.
+        </li>
+      </ul>
+      <h2>Use Cases:</h2>
+      <ul>
+        <li>
+          Translate your searches to view results from other language sectors.
+        </li>
         <li>Chat with foreign-language-speaking communities fluidly.</li>
         <li>
           Comment, post, or interact with foreign-language forums or social
           media content.
         </li>
-        <li>Translate any document you are making "As-You-Type".</li>
+        <li>Translate any document you are making "As-You-Type"</li>
       </ul>
       <br />
-      <h2>Ongoing Improvements</h2>
-      <p class="indent">
-        As we develop BabelFlow, we are actively seeking to build tools so
-        people around the world can overcome existing language barriers present
-        on the internet. Our grand vision is to unify the internet around the
-        world so everyone can surf and interact together in this global network
-        of communication. Our Translate As You Type tool is the first of the
-        many features we hope to provide to help anyone around the world access
-        the information they need, no matter the language.
+      <h1>Our Translation API</h1>
+      <p>
+        Currently we have setup a server that hosts various MarianMT language
+        translation machine learning models. While this service isn't as content
+        rich as others such as: google translate, we want to explore the open
+        source options available and be able to fine-tune the operations for the
+        benefit of our users and to ensure success for the future of our
+        endeavors.
       </p>
-      <br />
-      <p class="indent">In the future we hope to provide:</p>
+      <h3>Target Language Codes</h3>
       <ul>
-        <li>
-          Improved translation accuracy by allowing the users to toggle between
-          different translations or even entire translation models.
-        </li>
-        <li>
-          Broader language support that allows any language to translate to any
-          other language with great accuracy.
-        </li>
-        <li>Optimized performance for faster and more fluid communication.</li>
+        <li><code>en</code> - Any to English</li>
+        <li><code>fr</code> - English to French</li>
+        <li><code>es</code> - English to Spanish</li>
+        <li><code>it</code> - English to Italian</li>
+        <li><code>zh</code> - English to Chinese</li>
       </ul>
-      <br />
-      <h2>Try Our API</h2>
+      <h3>Try with Curl</h3>
       <pre><code>curl -X POST 'https://api.langsurfer.com/translate' \
         -H 'Content-Type: application/json' \
         -d '{

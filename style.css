@@ -19,7 +19,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  line-height: 1.6;
+  line-height: 1.8;
   font-family: serif;
   font-size: 18px;
   background-color: var(--main-dark);
@@ -104,4 +104,8 @@ code {
 
 .fish-image {
   max-width: 200px;
+}
+
+.graph-image {
+  max-width: 100%;
 }
