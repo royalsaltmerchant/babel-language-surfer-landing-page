@@ -3,6 +3,7 @@
   --bright-white: #fffdf0;
   --main-dark: #1a3548; 
   --second-dark: #137493;
+  --third-dark: #1c1f21;
   --light-blue: #b9eeff;
   --main-gray: rgb(142, 184, 191);
   --light-orange: #ffb752;
@@ -108,4 +109,14 @@ code {
 
 .graph-image {
   max-width: 100%;
+}
+
+.code-block {
+  padding: 3px;
+  background-color: var(--third-dark);
+  border: 1px solid var(--main-gray);
+  width: 90vw;
+  max-width: max-content;
+  overflow-x: scroll;
+  white-space: nowrap;
 }

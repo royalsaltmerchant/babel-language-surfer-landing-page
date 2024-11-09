@@ -148,7 +148,7 @@
         </li>
         <li>Translate any document you are making "As-You-Type"</li>
       </ul>
-      <br />
+      <hr />
       <h1>Our Translation API</h1>
       <p>
         Currently we have setup a server that hosts various MarianMT language
@@ -167,13 +167,15 @@
         <li><code>zh</code> - English to Chinese</li>
       </ul>
       <h3>Try with Curl</h3>
-      <pre><code>curl -X POST 'https://api.langsurfer.com/translate' \
-        -H 'Content-Type: application/json' \
-        -d '{
-        "text": "Hello",
-        "target_language": "fr"
-        }'
-      </code></pre>
+      <div class="code-block">
+        <pre><code>curl -X POST 'https://api.langsurfer.com/translate' \
+          -H 'Content-Type: application/json' \
+          -d '{
+          "text": "Hello",
+          "target_language": "fr"
+          }'
+        </code></pre>
+      </div>
     </main>
 
     <footer>
